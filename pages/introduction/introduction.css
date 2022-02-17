@@ -1,0 +1,31 @@
+/* overlay card styles */
+
+.overlay-card{
+    width: 13rem;
+    height: 13rem;
+    border: .5px solid var(--primary-color-light); ;
+}
+
+.overlay-text{
+    top:30%;
+    left: 20%;
+    color: var(--primary-text-color);
+}
+
+
+.responsive-img{
+  width: 60rem;
+  height: 25rem;
+
+}
+
+
+.horizontal-card{
+      width: 27rem;
+      height: 100%;
+      background-color: var(--primary-color-lightest);
+}
+  
+.cart-item{
+      border-bottom: none;
+}

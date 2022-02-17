@@ -1,0 +1,62 @@
+
+/* simple badge styles */
+
+.primary-badge{
+    color: var(--primary-text-color);
+    background: var(--primary-color);
+}
+
+.secondary-badge{
+    border: 1.5px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.pill-primary-badge{
+    color:var(--primary-text-color);
+    background: var(--primary-color);
+    border-radius: 22%;
+}
+
+.pill-secondary-badge{
+    border: 1.5px solid var(--primary-color);
+    color: var(--primary-color);
+    border-radius: 22%;
+}
+
+
+/* avatar,notification badge styles */
+
+.avatar-badge-container, .notification-badge-container{
+    position: relative;
+}
+
+.avatar-badge  {
+    position: absolute;
+    min-width: 1.2rem;
+    bottom: 75%;
+    right: -10%;
+    height: 1.2rem;
+    padding: 0.2rem;
+    border-radius: 50%;
+    background: var(--primary-color);
+    color: var(--primary-text-color);
+}
+
+
+
+.notification-badge{
+    position: absolute;
+    min-width: 1.2rem;
+    bottom: 85%;
+    right: -30%;
+    height: 1.2rem;
+    padding: 0.2rem;
+    border-radius: 50%;
+    background: var(--primary-color);
+    color: var(--primary-text-color);
+}
+.notification-badge-container .fa {
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--dark-red);
+}

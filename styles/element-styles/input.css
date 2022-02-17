@@ -1,0 +1,27 @@
+
+/* label input styles */
+
+.label-input, .radio-input, .checkbox-input{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 4px;
+    background-color: var(--primary-color-lightest);
+    min-height: 100px;
+    width: 80%;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.label-input-item{
+    height: 2rem;
+    width: 30rem;
+}
+
+.error-input{
+    border: 2px solid var(--primary-red);
+}
+
+.error-msg{
+    color: var(--primary-red);
+}
+

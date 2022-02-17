@@ -1,0 +1,31 @@
+/* avatar */
+.avatar-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 4rem;
+  }
+  
+.avatar {
+    object-fit: cover;
+    border: 3px solid var(--primary-color);
+  }
+
+.rounded{
+  border-radius: 50%;
+}
+
+  .sm {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+  
+  .med {
+    width: 4.5rem;
+    height: 4.5rem;
+  }
+  
+  .large {
+    width: 5.5rem;
+    height: 5.5rem;
+  }

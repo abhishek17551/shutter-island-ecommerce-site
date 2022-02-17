@@ -1,0 +1,196 @@
+/* cards styles */
+.card, .dismiss-card {
+    position: relative;
+    width: 16rem;
+    transition: all 200ms ease-in-out;
+}
+
+.card:hover, .dismiss-card:hover, .text-card:hover {
+  box-shadow: 13px 13px 21px -5px rgba(0, 0, 0, 0.3);
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.responsive-image {
+    max-width: 100%;
+  }
+
+.card-description{
+  padding: 0.5rem 0.75rem 0.75rem 0.75rem;
+  position: relative;
+}
+
+.primary{
+    height: 10rem;
+}
+
+.light{
+    color: var(--primary-color);
+    font-weight: lighter;
+}
+
+.strikethrough {
+    text-decoration: line-through;
+}
+
+.price > h6{
+    display: inline;
+    padding-right: 0.45rem;  
+}
+
+.discount{
+    color: var(--secondary-color-dark);
+    font-weight: 900;
+}
+
+.wishlist {
+    position: absolute;
+    top: 0.2rem;
+    right: 1rem;
+    font-size: 1.5rem;
+}
+
+.card-badge {
+    position: absolute;
+    left: 0;
+    top: 2rem;
+    background: var(--secondary-color-dark);
+    padding: 0.25rem;
+    color: var(--primary-text-color);
+    font-size: 0.75rem;
+    font-weight: bold;
+ }
+
+
+ /* dismiss card styles */
+ .dismiss-card {
+    width: 20rem;
+    position: relative;
+}
+
+.dismiss-card-description {
+    padding: 0 1.25rem 1rem 1.25rem;
+}
+
+.dismiss-card .icon-btn {
+    position: absolute;
+    right: 1rem;
+    top: 0.5rem;
+    opacity: 0;
+}
+
+.dismiss-card:hover .icon-btn  {
+    opacity: 1;
+}
+  
+
+/* overlay card styles */
+.overlay-card {
+    width: 20rem;
+    position: relative;
+    transition: all 200ms ease-in-out;
+}
+
+.overlay-text{
+    position: absolute;
+    bottom: 0;
+    color: var(--primary-color);
+    padding: 1rem 1rem 0 1rem;
+    opacity: 0;
+    z-index: 1;
+}
+
+.overlay-card button {
+    position: absolute;
+    right: 1rem;
+    top: 0.5rem;
+    opacity: 0;
+}
+
+.overlay-card:hover .responsive-image {
+    filter: brightness(80%);
+}
+
+.overlay-card:hover .overlay-text,
+.overlay-card:hover .icon-btn {
+  opacity: 1;
+  filter: brightness(100%);
+}
+
+
+/* text card styles */
+
+.text-card{
+    width: 20rem;
+}
+
+.text-card .title{
+    margin-block-start: 0;
+}
+
+.text-card .subtitle{
+    margin-block-start: 0;
+
+}
+
+/* horizontal card styles */
+
+.horizontal-card{
+    padding-bottom: 0.75rem;
+    border: 1.2px solid var(--primary-color);
+    
+}
+
+.cart-item{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding-bottom: 0.75rem;
+    border-bottom: 1.2px solid var(--primary-color-light);
+}
+
+.cart-item-image{
+    width: 10rem;
+}
+
+.cart-item-details, .cart-item-price{
+    padding: 0 1rem;
+}
+
+.primary-details{
+  min-height: 4rem;
+  margin-bottom: 1rem;
+}
+
+.horizontal-card-btns{
+    padding-top: 0.75rem;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.horizontal-card-btns .remove:hover{
+    color: var(--primary-color-dark);
+}
+
+.horizontal-card-btns .move-to-wishlist:hover{
+    color: var(--secondary-color-dark);
+}
+.horizontal-card-btns div {
+    justify-self: center;
+  }
+
+.horizontal-card-btns button {
+    padding: 0.5rem;
+    background: transparent;
+    border: none;
+    font-weight: bold;
+}
+  
+.remove {
+    color: var(--primary-color);
+  }
+  
+  .move-to-wishlist {
+    color: var(--secondary-color);
+  }

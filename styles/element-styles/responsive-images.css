@@ -1,0 +1,11 @@
+/* Responsive images styles */
+
+.image-container{
+    width: 16rem;
+}
+
+.round{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}

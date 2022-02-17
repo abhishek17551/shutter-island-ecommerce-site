@@ -1,0 +1,15 @@
+.modal-container {
+    min-width: 20rem;
+    max-width: 27rem;
+    margin: auto;
+    border: 3px solid var(--primary-color-dark);
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+.modal-btns{
+    display: flex;
+    margin-left: auto;
+}
