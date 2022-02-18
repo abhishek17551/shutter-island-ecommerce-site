@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://abui-component-library.netlify.app/styles/styles.css">
+    <link rel="stylesheet" href="../../styles/element-styles/main.css">
+    <link rel="stylesheet" href="./login.css">
+</head>
+<body>
+    <nav class="navbar flex-sb">
+        <ul>
+            <a href="../../index.html"><img src="../../assets/ecom_logo.png" alt="Shutter Island logo" class="responsive-image mg-xs pointer border-radius-sm"></a>
+        </ul>
+        <ul>
+            <div class="search flex-center">
+                <input type="text" name="search" placeholder="What's on your mind?" class="border-radius-sm">
+                <button class="btn light-btn mg-l-s">Search</button>
+            </div>
+        </ul>
+        <ul class="flex-center">
+            <a href="./signup.html"><button class="btn secondary-btn">Sign Up</button></a>
+            <a href="./login.html"><button class="btn primary-btn mg-s">Login</button></a>
+          
+        </ul>
+    </nav>
+
+    <div class="wrapper">
+       
+
+        <div class="full-wrapper flex-center">
+            <div class="login-container mg-t-m padding-m flex-se-column">
+                <h3 class="mg-t-m">Login</h3>
+                
+                <img src="../../assets/icons8-login-100.png" alt="login logor" class="login-image mg-t-m">
+                <form class="label-input mg-t-xs">
+                    <div class="input-group ">
+                        <label for="username">Username/Email *</label>
+                        <input type="text" placeholder="Enter username/email" class="label-input-item border-radius-sm">
+                    </div>
+                    <div class="input-group mg-t-s  ">
+                        <label for="password">Password *</label>
+                        <input type="password" placeholder="Enter password" class="label-input-item border-radius-sm ">
+                    </div>
+                </form>
+                <div class="flex-sb">
+                    <div class="mg-r-m">
+                        <input type="checkbox" name="remember-me" id="remember-me">
+                        <label for="remember-me">Remember me</label>
+                    </div>
+                    <a href="#">Forgot Password?</a>
+                </div>
+                <button class="btn secondary-btn mg-t-m">Login</button>
+                <a href="./signup.html"><button class="btn btn-outline outline-primary-btn mg-t-m">Create New Account</button></a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
