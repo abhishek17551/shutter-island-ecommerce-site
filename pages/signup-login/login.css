@@ -1,0 +1,43 @@
+.login-container{
+    box-sizing: border-box;
+    height: 40rem;
+    width: 26rem;
+    background-color: var(--primary-color-lightest);
+    border: 2px solid var(--primary-color-dark);
+    
+}
+
+
+
+.login-image{
+    height: 8rem;
+    width: 8rem;
+}
+
+.label-input {
+    border: none;
+    
+}
+
+.label-input-item{
+    width: 16rem;
+    height: 2.3rem;
+}
+
+
+a{
+    text-decoration: underline;
+    color: var(--primary-color-dark);
+}
+
+a:hover{
+    font-weight: 600;
+}
+
+.login-container > .secondary-btn{
+    width: 80%;
+}
+
+.login-container a > .outline-primary-btn{
+    width: 100%;
+}
