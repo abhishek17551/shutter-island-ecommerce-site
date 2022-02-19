@@ -1,0 +1,29 @@
+/* cart styles */
+
+.cart-item{
+    border-bottom: none;
+}
+
+.cart-item-details > * {
+    margin: 0.5em;
+}
+
+.primary-details > button{
+    width: 12rem;
+}
+
+
+
+.price-details{
+    width: 25rem;
+    height: 27rem;
+    background-color: var(--primary-color-lightest);
+}
+
+.price-details button{
+    width: 100%;
+}
+
+.page-wrapper h3{
+    text-align: center;
+}
