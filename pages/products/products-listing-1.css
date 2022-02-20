@@ -1,0 +1,25 @@
+.sidebar{
+    width: 25%;
+}
+
+.page-wrapper {
+    width: 75%;
+    margin: 2rem 2rem;
+    overflow-y: auto;
+}
+
+.slider{
+    width: 10.5rem;
+}
+/* product cards styles */
+.card{
+    height: 23.5rem;
+}
+
+.primary{
+    height: 8rem;
+}
+
+.card-description .far{
+    color: var(--dark-red);
+}
