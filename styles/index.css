@@ -47,17 +47,6 @@
 
 }
 
-/* .centered-content{
-  position: absolute;
-  top: 70%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.centered-content > p{
-  color: var(--primary-text-color);
-} */
-
 
 .horizontal-card{
     width: 27rem;
@@ -74,13 +63,11 @@
 .background-img-container{
   position: relative;
   text-align: center;
-  
 }
 
 .background-img-container img{
     height: 59rem;
     width: 100%;
-   
 }
 
 .background-img-container .centered-content{
