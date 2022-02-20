@@ -6,3 +6,5 @@
 
  The selected products may be collected in a shopping cart. At checkout time, the items in the cart will be presented as an order.
  The customer might be asked to fill the shpping address and payment information. 
+
+ Live Link of the project - https://shutter-island-ecommerce-site.netlify.app/
